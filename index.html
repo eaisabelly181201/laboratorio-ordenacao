@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ordenador de Números</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Laboratório de Ordenação</h1>
+
+    <p>
+        Digite os números que deseja organizar:
+    </p>
+
+    <input
+        type="text"
+        id="numeros"
+        placeholder="Ex.: 8, 3, 10, -2, 1"
+    >
+
+    <p>Escolha a ordem:</p>
+
+    <select id="ordem">
+        <option value="crescente">Crescente</option>
+        <option value="decrescente">Decrescente</option>
+    </select>
+
+    <p>Escolha o algoritmo:</p>
+
+    <select id="algoritmo">
+        <option value="bubble">Bubble Sort</option>
+        <option value="selection">Selection Sort</option>
+    </select>
+
+    <br><br>
+
+    <button id="botaoOrdenar">Ordenar números</button>
+
+    <h2>Resultado</h2>
+    <p id="resultado">Os números aparecerão aqui.</p>
+
+    <script src="script.js"></script>
+</body>
+</html>
